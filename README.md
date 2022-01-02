@@ -28,4 +28,10 @@ Single-cell sequencing only generates short read from one-end of a cDNA template
 For example, it can not trace the response of single cell of immune system during their response to cancer. Similarly, gene rearrangement and alternative RNA splicing also create pathological cell divisity amongst cancer cells.
 
 #### Nature
-Link full length targeted sequencing and short-read single cell.
+Combine full length targeted sequencing by targeted capture and Oxford Nanopore sequencing with short-read profiling at single cell resolution.
+
+### Workflow
+1.To cDNA library, short-read sequencing for 3’ expression profiling. 
+2.Targeted capture by hybridisation capture and then long-read sequencing.
+3.Matching cell barcodes obtained from long-read sequencing with cell barcodes obtained from short-read.
+4.De novo assembly long-read sequencing to  full-length TCR or BCR sequences for each cell
