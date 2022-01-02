@@ -15,19 +15,18 @@ Third generation sequencing(long read sequencing)
 #### Tools
 e.g. light signal: SMART microarray, Pacific Biosciences; electical signal: Oxford Nanopore Technologies (ONT)
 
-## Application of long read seuencing on single-cell
-### Smart-Seq2
-#### Disadvantages
+## Smart-Seq2
+### Disadvantages
 1.It can only processed limited number of cells due to highly relied on plate or well-based microfluidics.10-100s
 2.Cost per cell is high as it require amounts of reads to reconstrcuct paired antigen receptors.
 3.Short reads makes it difficult or impossible to decipher critical alternative splicing of mRNA segments？？？
 
-### RAGE-seq:targeted long read single cell sequencing
+## RAGE-seq:targeted long read single cell sequencing
 Single-cell sequencing only generates short read from one-end of a cDNA template. This short read sequencing can not capture complex gene rearrangement and alternative RNA-splicing.
 
 For example, it can not trace the response of single cell of immune system during their response to cancer. Similarly, gene rearrangement and alternative RNA splicing also create pathological cell divisity amongst cancer cells.
 
-#### Nature
+### Nature
 Combine full length targeted sequencing by targeted capture and Oxford Nanopore sequencing with short-read profiling at single cell resolution.
 
 ### Workflow
@@ -39,3 +38,14 @@ Combine full length targeted sequencing by targeted capture and Oxford Nanopore 
 3.Matching cell barcodes obtained from long-read sequencing with cell barcodes obtained from short-read.
 
 4.De novo assembly long-read sequencing to  full-length TCR or BCR sequences for each cell
+
+### Application
+#### B cell clonal network analysis
+To some genes in some cell type which have somatic hypermutation per generation, we can identify point mutation by sequencing across the entire specific gene region of mrna. It can identify conserved amino acid mutations and subclones represented by different ratio of cells.
+
+On top of that, genrating clone network based on nearest neighbor distance using the inferred germline sequence as the unmutated ancestor. This network can demonstrate the evolution of individual Ramos cells undergoing active somatic hypermutation
+![RAGE workflow](longread-singlecell-workflow.png)
+
+#### Analysis of lymphocytes from a human lymph node
+
+
