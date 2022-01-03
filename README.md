@@ -50,4 +50,5 @@ On top of that, genrating clone network based on nearest neighbor distance using
 Classfication and frequency of sub-cell type of T cells and B cells: Based on  TCRα, TCRβ, TCRγ,  TCRδ chain of TCR in T cells and heavy, light chain of immunoglobulin of B cells as well as levels of specific genes expression.
 
 Alternative splicing analysis.
-![](longread-singlecell-workflow.png)
+
+![splicing](alternative splicing.png)
