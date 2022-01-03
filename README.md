@@ -51,4 +51,4 @@ Classfication and frequency of sub-cell type of T cells and B cells: Based on  T
 
 Alternative splicing analysis.
 
-![splicing](alternative splicing.png)
+![splicing](alternative-splicing.png)
