@@ -21,7 +21,7 @@ e.g. light signal: SMART microarray, Pacific Biosciences; electical signal: Oxfo
 2.Cost per cell is high as it require amounts of reads to reconstrcuct paired antigen receptors.
 3.Short reads makes it difficult or impossible to decipher critical alternative splicing of mRNA segments？？？
 
-## RAGE-seq:targeted long read single cell sequencing
+## RAGE-seq:targeted long read single cell sequencing(doi:10.1038/s41467-019-11049-4)
 Single-cell sequencing only generates short read from one-end of a cDNA template. This short read sequencing can not capture complex gene rearrangement and alternative RNA-splicing.
 
 For example, it can not trace the response of single cell of immune system during their response to cancer. Similarly, gene rearrangement and alternative RNA splicing also create pathological cell divisity amongst cancer cells.
@@ -50,5 +50,24 @@ On top of that, genrating clone network based on nearest neighbor distance using
 Classfication and frequency of sub-cell type of T cells and B cells: Based on  TCRα, TCRβ, TCRγ,  TCRδ chain of TCR in T cells and heavy, light chain of immunoglobulin of B cells as well as levels of specific genes expression.
 
 Alternative splicing analysis.
-
 ![splicing](alternative-splicing.png)
+
+### Discussion
+Reports somatic hypermutation by full-length receptor sequence.
+
+Detecting mRNA isoforms by discovering splice isoforms at single cell level.
+ 
+Capture cell diversity and immunophenotyping by detecting specfic genes expression of cell surface
+
+Identify and integrate biomarkers of responsing to checkpoint inhibitors for TCR clonality, TIL frequency, and gene-expression signatures in single cell level. Identify biomarkers or cell states that predict response to therapy.
+
+#### Limitation
+Low recovery of cell barcodes due to the higher error-rate of base-called nanopore sequencing data. 
+
+A large number of PCR cycles can distort the distribution of cell barcodes and UMI sequences.
+
+## ScISOr-Seq(doi:10.1038/nbt.4259)
+
+Without the use of an enrichment strategy, the limited sequencing depth of long-read sequencing platforms results in only highly expressed genes being sampled.
+
+A high cost per cell.
