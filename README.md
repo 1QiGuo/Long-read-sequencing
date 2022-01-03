@@ -46,6 +46,8 @@ To some genes in some cell type which have somatic hypermutation per generation,
 On top of that, genrating clone network based on nearest neighbor distance using the inferred germline sequence as the unmutated ancestor. This network can demonstrate the evolution of individual Ramos cells undergoing active somatic hypermutation
 ![RAGE workflow](longread-singlecell-workflow.png)
 
-#### Analysis of lymphocytes from a human lymph node
+#### Analysis of lymphocytes and lymphocytes across tissues.
+Classfication and frequency of sub-cell type of T cells and B cells: Based on  TCRα, TCRβ, TCRγ,  TCRδ chain of TCR in T cells and heavy, light chain of immunoglobulin of B cells as well as levels of specific genes expression.
 
-
+Alternative splicing analysis.
+![](longread-singlecell-workflow.png)
