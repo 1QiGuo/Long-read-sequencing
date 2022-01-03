@@ -44,7 +44,7 @@ Combine full length targeted sequencing by targeted capture and Oxford Nanopore 
 To some genes in some cell type which have somatic hypermutation per generation, we can identify point mutation by sequencing across the entire specific gene region of mrna. It can identify conserved amino acid mutations and subclones represented by different ratio of cells.
 
 On top of that, genrating clone network based on nearest neighbor distance using the inferred germline sequence as the unmutated ancestor. This network can demonstrate the evolution of individual Ramos cells undergoing active somatic hypermutation
-![RAGE workflow](longread-singlecell-workflow.png)
+![RAGE workflow](clonal-netwrok.png)
 
 #### Analysis of lymphocytes and lymphocytes across tissues.
 Classfication and frequency of sub-cell type of T cells and B cells: Based on  TCRα, TCRβ, TCRγ,  TCRδ chain of TCR in T cells and heavy, light chain of immunoglobulin of B cells as well as levels of specific genes expression.
