@@ -4,7 +4,7 @@ Single molecular seuqncing.
 Third generation sequencing(long read sequencing)
 ### Feature
 #### Adventages:
-1. The third generation sequencing directly target single molecular without the need for PCR amplification, which avoid extra errors generated during pcr process.
+1. The third generation sequencing directly target single molecular and nanpore sequencing even does not need PCR amplification, which avoid extra errors generated during pcr process.
 2. Higer speed than next-generation sequencing.
 3. Longer read(10k bp). Avoiding assembly error for next generation(50-400 bp)(10.1016/j.cmi.2017.10.013)
 #### Disadventages:
@@ -30,9 +30,9 @@ Combine full length targeted sequencing by targeted capture and Oxford Nanopore 
 
 ### Workflow
 ![RAGE workflow](longread-singlecell-workflow.png)
-1.To cDNA library, short-read sequencing for 3’ expression profiling. 
+1.Droplet-based scRNA-Seq is used to generate an initial barcoded cDNA library
 
-2.Targeted capture by hybridisation capture and then long-read sequencing.
+2.Targeted capture by hybridisation followed by long-read sequencing and then fragmentation as well as short-read sequencing for 3’ expression profiling. 
 
 3.Matching cell barcodes obtained from long-read sequencing with cell barcodes obtained from short-read.
 
