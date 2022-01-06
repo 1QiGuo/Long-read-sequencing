@@ -16,9 +16,9 @@ Third generation sequencing(long read sequencing)
 
 ## Smart-Seq2
 ### Disadvantages
-1.It can only processed limited number of cells due to highly relied on plate or well-based microfluidics.10-100s
-2.Cost per cell is high as it require amounts of reads to reconstrcuct paired antigen receptors.
-3.Short reads makes it difficult or impossible to decipher critical alternative splicing of mRNA segments？？？
+1. It can only processed limited number of cells due to highly relied on plate or well-based microfluidics.10-100s
+2. Cost per cell is high as it require amounts of reads to reconstrcuct paired antigen receptors.
+3. Short reads makes it difficult or impossible to decipher critical alternative splicing of mRNA segments？？？
 
 ## RAGE-seq:targeted long read single cell sequencing(doi:10.1038/s41467-019-11049-4)
 Single-cell sequencing only generates short read from one-end of a cDNA template. This short read sequencing can not capture complex gene rearrangement and alternative RNA-splicing.
